@@ -1,0 +1,70 @@
+<link href="https://fonts.cdnfonts.com/css/neo-sans-arabic" rel="stylesheet">
+
+
+<!---------------- NAV BAR ----------------->
+
+<div class="NavParent">
+
+  <!-------------- EDIT BUTTON WITH THE IMAGE EDIT-------------------->
+  <button class="edit">
+    تعديل
+
+    <img src="../assets/images/edit.jpg" alt="">
+  </button>
+  <!-------------- TICKET NO. WITH BACK IMAGE ----------------->
+
+  <div class="ticketNo">
+    <p> تذكرة رقم #2342</p>
+    <img src="../assets/images/arrow.jpg" alt="">
+  </div>
+</div>
+
+<!--------------CHART AND CARD COMPONENTS-------------------->
+
+<div class="twoPages">
+  <app-Card class="cardPage"></app-Card>
+  <app-chart class="ChartPage"></app-chart>
+  <!--------------CHART ------------------->
+
+</div>
+
+<!-------------- BAR IN THE MIDDLE OF THE PAGE-------------------->
+
+<div class="Bar">
+  <!------------- LEFT SIDE OF THE MIDDLE BAR-------------------->
+
+  <button class="buttonServe">حجز تذكرة جديدة</button>
+  <p>مفعله</p>
+
+  <!-------------- SWITCHER------------------->
+
+  <div class="theme_switcher">
+    <label id="switch" class="switch">
+      <input type="checkbox"><span class="slider round"></span>
+    </label>
+  </div>
+
+  <!-------------- 2 BUTTONS BEHIND THE SEARCH INPUT-------------------->
+
+  <button class="behindSearch">
+    <img src="../assets/images/arro.jpg" alt="">
+  </button>
+  <button class="behindSearchtwo">
+    <img src="../assets/images/settings.jpg" alt="">
+  </button>
+
+  <!-------------- SEARCH INPUT------------------->
+
+  <div class="Search">
+    <input type="text"
+      placeholder="                                                                                   ..بحث عن ">
+    <i class="pi pi-search icon" style="font-size: 1rem; "></i>
+  </div>
+  <!--------------TICKETS SALES BEHIND SEARCH INPUT------------------->
+
+  <div class="ticketss">
+    <p>مبيعات التذاكر</p>
+  </div>
+</div>
+
+<app-table></app-table>

@@ -1,0 +1,107 @@
+/* -------------------STYLE OF THE ---------------------- */
+
+.pp {
+  display: flex;
+  flex-wrap: wrap;
+}
+.pp div {
+  font-family: Inter;
+  font-size: 11.619px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 19.918px; /* 171.429% */
+  color: white;
+  padding: 5px;
+  background-color: #038cb7;
+  margin-left: 5px;
+  width: 29.877px;
+  height: 29.877px;
+  flex-shrink: 0;
+
+  border-radius: 50%;
+}
+td {
+  color: #1c1c28;
+  padding-left: 30px;
+  font-family: Neo Sans Arabic;
+  font-size: 11.619px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.918px; /* 171.429% */
+}
+.mob {
+  color: #92a1ad;
+  margin-left: 40px;
+  font-family: Poppins;
+  font-size: 9.959px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.918px; /* 200% */
+}
+th {
+  text-align: center;
+  padding-right: 30px;
+  background-color: #f2f2f2;
+}
+.ticketinfo {
+  display: flex;
+}
+.ticketinfo div {
+  margin-left: 5px;
+  width: 33.667px;
+  height: 33.667px;
+  padding: 10.215px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6.597px;
+  flex-shrink: 0;
+  border-radius: 7.917px;
+  background: rgba(138, 116, 249, 0.1);
+}
+.ticketinfo div img {
+  width: 15.667px;
+  height: 15.667px;
+}
+.pdf {
+  color: rgba(0, 0, 0, 0.4);
+  margin-left: 100px;
+
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 15px */
+}
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: rgb(108, 108, 108);
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+.pagination a:hover {
+  background-color: #8a74f9;
+  border-radius: 7px;
+  color: white;
+}
+.view {
+  display: flex;
+}
+.priceicon {
+  display: flex;
+  align-items: left;
+}
+.downloadbutton {
+  border: 0px solid #92a1ad;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.downloadbutton:hover {
+  cursor: pointer;
+  background-color: rgb(0, 0, 0);
+}

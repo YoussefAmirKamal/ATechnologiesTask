@@ -1,0 +1,190 @@
+/* -------------------STYLE OF THE CARD---------------------- */
+
+.cardContainer {
+  border-radius: 8px;
+  height: 300px;
+  width: 500px;
+  background: #9a60ff;
+  margin-left: 50px;
+}
+
+/* -------------------STYLE OF FIRST LINE OF THE CARD---------------------- */
+
+.trash {
+  display: flex;
+  width: 100%;
+  height: 20px;
+}
+.trash i {
+  cursor: pointer;
+  width: 10%;
+  height: 20px;
+
+  font-size: 25px;
+  color: white;
+  margin-right: 30px;
+  margin-top: 30px;
+  margin-left: 80px;
+}
+.trash p {
+  height: 20px;
+  width: 90%;
+  color: #fff;
+  margin-top: 30px;
+  margin-left: 50px;
+  font-family: Neo Sans Arabic;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+/* -------------------STYLE COPY LINK---------------------- */
+
+.copylink {
+  display: flex;
+  width: 50%;
+  margin-left: 30%;
+  height: 50px;
+
+  margin-top: 50px;
+  border-radius: 8.316px;
+  border: 0.832px dashed #ddd;
+
+  background: #fff;
+}
+.copylink img {
+  height: 20px;
+  width: 20px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.copylink p {
+  color: #1c1c28;
+
+  font-family: Neo Sans Arabic;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 23.285px;
+  margin-top: 15px;
+  margin-left: 30px;
+}
+
+/* -------------------ACTIVATION AND DASHED LINE---------------------- */
+
+.activation {
+  margin-left: 200px;
+  color: #fff;
+  margin-top: 10px;
+  font-family: Neo Sans Arabic;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.dashedline {
+  width: 100%;
+  display: flex;
+}
+
+/* -------------------STYLE OF THE 2 END LINES OF THE DASHED LINES---------------------- */
+
+.leftcircle {
+  width: 20px;
+  height: 27.077px;
+  border-radius: 100px;
+  border-top-left-radius: 50px 5px;
+  border-bottom-left-radius: 50px 5px;
+  margin-top: 5px;
+}
+.rightcircle {
+  width: 20px;
+  height: 27.077px;
+  border-radius: 100px;
+  border-top-right-radius: 50px 5px;
+  border-bottom-right-radius: 50px 5px;
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+/* -------------------STYLE OF THE LASTR PART OF THE CARD---------------------- */
+
+.lastpart {
+  display: flex;
+}
+
+/* -------------------STYLE OF THE QR IN THE CARD---------------------- */
+
+.QR {
+  background-size: cover;
+  width: 30%;
+  height: 90px;
+
+  margin-left: 20px;
+}
+.QR img {
+  width: 100px;
+  height: 100px;
+  margin-left: 30px;
+}
+
+/* -------------------STYLE OF THE SHARED BUTTON IN THE CARD---------------------- */
+
+.sharebutton {
+  display: flex;
+  width: 40%;
+  height: 90px;
+}
+.sharebutton button {
+  background-color: #9a60ff;
+  height: 30px;
+  width: 80px;
+  color: #fff;
+  text-align: center;
+  font-family: Neo Sans Arabic;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: inline-flex;
+  padding: 4px 6px;
+  border-radius: 4px;
+  border: 1px solid #fff;
+  margin-top: 50px;
+  margin-left: 140px;
+  gap: -2px;
+}
+.sharebutton button img {
+  height: 20px;
+  width: 20px;
+  margin-left: 9px;
+}
+
+/* -------------------STYLE OF THE DISCOUNT IN THE CARD---------------------- */
+
+.discount {
+  width: 30%;
+  height: 90px;
+}
+.discount .d {
+  color: #fff;
+
+  font-family: Neo Sans Arabic;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 60px;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+.discount .percent {
+  color: #fff;
+
+  font-family: Neo Sans Arabic;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 50px;
+}

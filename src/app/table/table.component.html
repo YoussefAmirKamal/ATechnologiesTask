@@ -1,0 +1,72 @@
+<!------------------------------------------ TABLE FROM PRIMENG PASSING THROUGH ARRAY OF OBJECT CALLED 'USERS' ----------------------------------------------->
+
+<div class="card">
+  <p-table [value]="Users" [tableStyle]="{ 'min-width': '50rem' }">
+    <ng-template pTemplate="header">
+      <tr>
+        <th> التذكره</th>
+        <th> عدد مرات الشراء</th>
+        <th> عدد الاشخاص</th>
+        <th> السينمات</th>
+
+        <!------------------------------------------ ICON BESIDE PRICE TABLEHEADER ----------------------------------------------->
+
+        <th class="priceicon">
+          <img src="../../assets/images/arro.jpg" style="height: 15px; width: 15px; margin-right: 20px;" alt="">
+          <p style="padding-right: 50px;"> قيمة التذكره
+          </p>
+        </th>
+
+        <th>رقم التذكره</th>
+        <th>المستخدم</th>
+        <th>#</th>
+      </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-user>
+      <tr>
+
+        <!------------------------------------------ TICKET ICONS 'DOWNLOAD ICON AND APPLE ICON ' ----------------------------------------------->
+        <div class="ticketinfo">
+          <button class="downloadbutton">
+            <img src="../../assets/images/download.jpg" style="height: 16px;
+          width: 16px; margin: 5px;" alt="">
+          </button>
+          <td style="margin-top: 13px;">{{ user.Ticket }}</td>
+          <div style="margin-top: 10px;">
+            <img src="../../assets/images/apple.jpg" alt="">
+          </div>
+        </div>
+        <p class="pdf">9mb . PDF</p>
+        <td>{{ user.buyTimes }}</td>
+        <td>{{ user.PeopleNo }}</td>
+        <td title="صيدناوي مول , برج العرب">{{ user.Cinema }}</td>
+        <td style="text-align: start;">{{ user.Price }}</td>
+        <td>{{ user.ticketNo }}</td>
+        <div class="pp">
+          <td>{{ user.Name }}</td>
+          <img style="height: 30px; width: 30px;margin-left: 10px;" src="{{user.image}}" alt="">
+        </div>
+        <p class="mob">0123456789</p>
+        <td>{{ user.hash }}</td>
+      </tr>
+    </ng-template>
+
+  </p-table>
+
+
+  <!------------------------------------------ PAJINATOR----------------------------------------------->
+
+
+</div>
+<div class="pagination">
+  <a href="#">&laquo;</a>
+  <a href="#">5</a>
+  <a href="#">4</a>
+  <a href="#">3</a>
+  <a href="#">2</a>
+  <a href="#">1</a>
+
+  <a href="#">&raquo;</a>
+
+
+</div>
