@@ -27,7 +27,7 @@ export class chartComponent {
     this.chartOptions = {
       series: [
         {
-          name: '80 0 استخدام',
+          name: '800 استخدام',
           data: [
             300, 500, 100, 400, 800, 500, 600, 550, 150, 200, 100, 800, 700,
           ],

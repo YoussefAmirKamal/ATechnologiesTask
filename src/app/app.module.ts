@@ -13,6 +13,7 @@ import { PaginatorModule } from 'primeng/paginator';
 import { NgxPaginationModule } from 'ngx-pagination';
 import { NgApexchartsModule } from 'ng-apexcharts';
 import { chartComponent } from './Chart/chart.component';
+import { QRCodeModule } from 'angularx-qrcode';
 
 @NgModule({
   declarations: [AppComponent, CardComponent, TableComponent, chartComponent],
@@ -25,6 +26,7 @@ import { chartComponent } from './Chart/chart.component';
     PaginatorModule,
     NgxPaginationModule,
     NgApexchartsModule,
+    QRCodeModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
